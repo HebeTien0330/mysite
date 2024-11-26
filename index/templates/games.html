@@ -1,0 +1,109 @@
+{% load static %}
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Games - Game Website Template</title>
+	<link rel="stylesheet" href="{% static 'css/index/style.css' %}" type="text/css">
+</head>
+<body>
+	<div id="background">
+		<div id="header">
+			<div>
+				<div>
+					<a href="{{ index }}" class="logo"><img src="{% static 'images/index/logo.png' %}" alt=""></a>
+					<ul>
+						<li>
+							<a href="{{ index }}" id="menu1">home</a>
+						</li>
+						<li>
+							<a href="{{ media }}" id="menu2">media</a>
+						</li>
+						<li class="selected">
+							<a href="{{ games }}" id="menu3">games</a>
+						</li>
+						<li>
+							<a href="{{ about }}" id="menu4">about</a>
+						</li>
+						<li>
+							<a href="{{ blog }}" id="menu5">blog</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="body">
+			<div>
+				<div>
+					<div class="games">
+						<div class="content">
+							<h3>best games</h3>
+							<ul>
+								<li>
+									<a href="#" class="figure"><img src="{% static 'images/index/best-game1.jpg' %}" alt=""></a> <span><a href="#">This is just a place holder</a></span>
+								</li>
+								<li>
+									<a href="#" class="figure"><img src="{% static 'images/index/best-game2.jpg' %}" alt=""></a> <span><a href="#">This is just a place holder</a></span>
+								</li>
+							</ul>
+						</div>
+						<div class="aside">
+							<h3>other games</h3>
+							<ul>
+								<li>
+									<a href="#" class="figure"><img src="{% static 'images/index/game1.jpg' %}" alt=""></a>
+									<span><a href="#">This is just a place holder</a></span>
+								</li>
+								<li>
+									<a href="#" class="figure"><img src="{% static 'images/index/game2.jpg' %}" alt=""></a>
+									<span><a href="#">This is just a place holder</a></span>
+								</li>
+								<li>
+									<a href="#" class="figure"><img src="{% static 'images/index/game3.jpg' %}" alt=""></a>
+									<span><a href="#">This is just a place holder</a></span>
+								</li>
+								<li>
+									<a href="#" class="figure"><img src="{% static 'images/index/game4.jpg' %}" alt=""></a>
+									<span><a href="#">This is just a place holder</a></span>
+								</li>
+								<li>
+									<a href="#" class="figure"><img src="{% static 'images/index/game5.jpg' %}" alt=""></a>
+									<span><a href="#">This is just a place holder</a></span>
+								</li>
+								<li>
+									<a href="#" class="figure"><img src="{% static 'images/index/game6.jpg' %}" alt=""></a>
+									<span><a href="#">This is just a place holder</a></span>
+								</li>
+							</ul>
+						</div>
+						<div class="article">
+							<p>
+								This website template has been collect from <a href="http://www.moobnn.com/" title="模板在线">模板在线</a> <a href="http://guantaow.taobao.com" target="_blank">厚朴网络 淘宝店</a> for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the Forum.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div>
+				<ul>
+					<li id="facebook">
+						<a href="#">facebook</a>
+					</li>
+					<li id="twitter">
+						<a href="#">twitter</a>
+					</li>
+					<li id="googleplus">
+						<a href="#">googleplus</a>
+					</li>
+				</ul>
+				<p>
+					@ copyright 2012. All rights reserved.&nbsp;<a href="http://www.moobnn.com" title="网站模板" target="_blank">网站模板</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
