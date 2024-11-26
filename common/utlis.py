@@ -9,9 +9,9 @@ def getMd5(str):
 def getContext():
     context = {
         "index": "http://" + BASE_URL + "index/",
-        "media": "http://" + BASE_URL + "index/media/",
+        "media": "http://" + BASE_URL + "media/",
         "games": "http://" + BASE_URL + "games/",
-        "about": "http://" + BASE_URL + "index/about/",
+        "about": "http://" + BASE_URL + "about/",
         "blog": "http://" + BASE_URL + "blog/",
     }
     return context

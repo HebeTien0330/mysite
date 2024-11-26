@@ -13,11 +13,3 @@ from common.utlis import getContext
 def index(request):
     context = getContext()
     return render(request, "index.html", context)
-
-def media(request):
-    context = getContext()
-    return render(request, "media.html", context)
-
-def about(request):
-    context = getContext()
-    return render(request, "about.html", context)
