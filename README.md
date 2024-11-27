@@ -2,9 +2,9 @@
 
 **一、相关环境**
 
-> Django: 5.1.2
-> Python: 3.8+
-> MySQL: 8.4.2
+> Django: 5.1.2<br>
+> Python: 3.8+<br>
+> MySQL: 8.4.2<br>
 
 **二、启动项目**
 
